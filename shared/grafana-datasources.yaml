@@ -8,6 +8,7 @@ datasources:
     orgId: 1
     url: http://prometheus:9090
     basicAuth: false
+    isDefault: false
     version: 1
     editable: false
     jsonData:
@@ -18,6 +19,7 @@ datasources:
     orgId: 1
     url: http://tempo:3200
     basicAuth: false
+    isDefault: true
     version: 1
     editable: false
     apiVersion: 1
